@@ -113135,7 +113135,7 @@ A.fq.prototype={
 cu(){var s=this
 return A.Y(["yorg^nummer",s.a,"yorg^namebspr",s.b,"ysdmempv^nummer",s.c,"ysdmempv^such",s.d,"yvdat",s.e,"id",s.f,"yvrout^namebspr",s.r,"yvtim",s.w,"nummer",s.x],t.N,t.z)}}
 A.dk.prototype={
-JK(){var s,r,q,p="http://localhost:3000/api"
+JK(){var s,r,q,p="http://192.168.11.16:3000/api"
 try{s=J.aE($.bmR().i(0,"APP_CONFIG"),"BASE_URL")
 r=s
 if(r==null)r=p

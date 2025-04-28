@@ -7,7 +7,7 @@ const app = express();
 
 // Environment variables with fallback defaults
 const PORT = process.env.PORT || 3000;
-const HOST = process.env.HOST || 'localhost';
+const HOST = process.env.HOST || '192.168.11.16';
 const TARGET_URL = process.env.TARGET_URL || 'http://192.168.100.33:1246';
 
 app.use(cors());
